@@ -1,0 +1,222 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {}
+}/* ==========================================================================
+   1. APOCALYPSE WORLD CONTAINER
+   ========================================================================== */
+.apocalypse-world {
+  --fire-primary: #ff3700;
+  --fire-secondary: #ff9100;
+  --fire-glow: #ffdd00;
+  --smoke-dark: #121111;
+  --ash-gray: #3a3535;
+  
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(circle at 50% 70%, #4a1505 0%, #1a0802 60%, #050201 100%);
+  overflow: hidden;
+  /* Activates 3D space rendering for all child elements */
+  perspective: 1000px;
+  perspective-origin: 50% 40%;
+}
+
+/* Atmospheric ash particles overlay */
+.apocalypse-world::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: 
+    radial-gradient(circle at 20% 30%, rgba(255, 85, 0, 0.1) 1px, transparent 1px),
+    radial-gradient(circle at 75% 15%, rgba(255, 145, 0, 0.08) 2px, transparent 2px),
+    radial-gradient(circle at 40% 80%, rgba(255, 55, 0, 0.12) 1.5px, transparent 1.5px);
+  background-size: 400px 400px;
+  animation: airborneAsh 12s linear infinite;
+  pointer-events: none;
+  z-index: 10;
+}
+
+/* ==========================================================================
+   2. 3D STAGE & LAYERING (Z-AXIS)
+   ========================================================================== */
+.bg-3d-stage {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  /* Slowly shifts perspective to simulate a camera panning over ruins */
+  animation: ambientCamera 20s ease-in-out infinite alternate;
+}
+
+/* Base class for city layers pushed deep into the background */
+.city-layer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70%;
+  transform-style: preserve-3d;
+}
+
+.layer-distant {
+  transform: translateZ(-500px) scale(2);
+  filter: blur(4px) brightness(0.6);
+  opacity: 0.85;
+}
+
+.layer-midground {
+  transform: translateZ(-250px) scale(1.5);
+  filter: blur(1.5px) brightness(0.8);
+}
+
+/* ==========================================================================
+   3. ABANDONED BUILDING DESIGNS (CSS SHAPES & CLIP-PATHS)
+   ========================================================================== */
+.building-cluster {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+  padding: 0 5%;
+}
+
+.building {
+  position: relative;
+  width: 140px;
+  background-color: var(--smoke-dark);
+  box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.9);
+}
+
+/* Ruined, jagged roof lines via clip-path */
+.building.skyscraper {
+  height: 85%;
+  clip-path: polygon(0% 20%, 25% 0%, 55% 25%, 70% 10%, 100% 35%, 100% 100%, 0% 100%);
+  background: linear-gradient(180deg, var(--ash-gray) 0%, var(--smoke-dark) 100%);
+}
+
+.building.tower {
+  width: 110px;
+  height: 70%;
+  clip-path: polygon(0% 0%, 40% 40%, 45% 15%, 85% 0%, 100% 50%, 100% 100%, 0% 100%);
+  background: linear-gradient(160deg, #2b2727 0%, var(--smoke-dark) 90%);
+}
+
+.building.block {
+  width: 180px;
+  height: 50%;
+  clip-path: polygon(0% 10%, 80% 10%, 85% 30%, 100% 20%, 100% 100%, 0% 100%);
+  background: linear-gradient(135deg, var(--ash-gray) 0%, #171515 100%);
+}
+
+/* ==========================================================================
+   4. APOCALYPTIC WINDOW DETAILED EFFECTS
+   ========================================================================== */
+.window-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  padding: 40px 15px 10px 15px;
+}
+
+.window {
+  height: 20px;
+  background: rgba(0, 0, 0, 0.85);
+  border-radius: 2px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Blown out/shattered window variations */
+.window.shattered {
+  clip-path: polygon(10% 10%, 90% 0%, 100% 75%, 60% 60%, 80% 100%, 0% 90%);
+  background: rgba(15, 10, 10, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Active fire roaring inside specific window units */
+.window.inferno-inside {
+  background: radial-gradient(circle at 50% 100%, var(--fire-glow) 0%, var(--fire-primary) 70%);
+  box-shadow: 0 0 15px var(--fire-secondary), inset 0 0 8px #fff;
+  animation: windowFlicker 0.4s ease-in-out infinite alternate;
+}
+
+/* ==========================================================================
+   5. DYNAMIC FIRE & SMOKE ANIMATIONS
+   ========================================================================== */
+/* Main flame tongues erupting from building roofs/structures */
+.blaze-container {
+  position: absolute;
+  top: -20px;
+  left: 10%;
+  width: 80%;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  filter: blur(1px);
+}
+
+.flame-tongue {
+  width: 15px;
+  height: 100%;
+  background: linear-gradient(0deg, transparent 0%, var(--fire-primary) 30%, var(--fire-secondary) 70%, var(--fire-glow) 100%);
+  border-radius: 50% 50% 20% 20% / 70% 70% 30% 30%;
+  transform-origin: bottom center;
+  animation: fireRage 0.6s ease-in-out infinite alternate;
+}
+
+.flame-tongue:nth-child(2) {
+  animation-delay: -0.2s;
+  animation-duration: 0.4s;
+  transform: scaleX(1.3);
+}
+
+.flame-tongue:nth-child(3) {
+  animation-delay: -0.4s;
+  animation-duration: 0.7s;
+  transform: scaleX(0.8);
+}
+
+/* Giant background fire glowing smoke plumes */
+.smoke-plume {
+  position: absolute;
+  bottom: 20%;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(255, 68, 0, 0.15) 0%, rgba(20, 10, 5, 0.6) 50%, transparent 70%);
+  border-radius: 50%;
+  mix-blend-mode: screen;
+  animation: smokeDrift 14s linear infinite;
+}
+
+.smoke-plume.pos-left { left: -50px; animation-delay: 0s; }
+.smoke-plume.pos-right { right: -50px; animation-direction: reverse; animation-delay: -4s; }
+
+/* ==========================================================================
+   6. KEYFRAME DEFINITIONS
+   ========================================================================== */
+@keyframes fireRage {
+  0% { transform: translateY(0) scaleY(0.9) rotate(-2deg); filter: brightness(1); }
+  100% { transform: translateY(-15px) scaleY(1.2) rotate(3deg); filter: brightness(1.3); }
+}
+
+@keyframes windowFlicker {
+  0% { opacity: 0.75; filter: drop-shadow(0 0 5px var(--fire-primary)); }
+  100% { opacity: 1; filter: drop-shadow(0 0 18px var(--fire-secondary)); }
+}
+
+@keyframes smokeDrift {
+  0% { transform: translateY(50px) translateX(0) scale(1); opacity: 0.4; }
+  50% { transform: translateY(-100px) translateX(30px) scale(1.3); opacity: 0.8; }
+  100% { transform: translateY(-250px) translateX(60px) scale(1.6); opacity: 0; }
+}
+
+@keyframes airborneAsh {
+  0% { background-position: 0px 0px; }
+  100% { background-position: -100px -400px; }
+}
+
+@keyframes ambientCamera {
+  0% { transform: rotateY(-1.5deg) translateY(0); }
+  100% { transform: rotateY(1.5deg) translateY(-5px); }
+}

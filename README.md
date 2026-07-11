@@ -1,1 +1,1 @@
-the game i'm developing is haevily influenced by the game francises, Infamous and Destiny. 
+the game i'm developing is heavily influenced by the game francises, Infamous and Destiny. 

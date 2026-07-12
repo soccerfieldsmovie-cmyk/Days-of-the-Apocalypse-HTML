@@ -1,0 +1,464 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 4 0 R 5 0 R 6 0 R 7 0 R] /Count 5 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /Resources 8 0 R /MediaBox [0 0 612 792] /Contents 9 0 R >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /Resources 8 0 R /MediaBox [0 0 612 792] /Contents 10 0 R >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /Resources 8 0 R /MediaBox [0 0 612 792] /Contents 11 0 R >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /Resources 8 0 R /MediaBox [0 0 612 792] /Contents 12 0 R >>
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /Resources 8 0 R /MediaBox [0 0 612 792] /Contents 13 0 R >>
+endobj
+8 0 obj
+<< /Font << /F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> /F2 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >> >> >>
+endobj
+9 0 obj
+<< /Length 3200 >>
+stream
+BT
+/F2 28 Tf
+50 750 Td
+(Days of the Apocalypse) Tj
+0 -35 Td
+/F2 20 Tf
+(Development Roadmap) Tj
+0 -25 Td
+/F1 11 Tf
+(PlayStation 5 Release - Q3 2027) Tj
+0 -40 Td
+/F2 14 Tf
+(Project Overview) Tj
+0 -20 Td
+/F1 11 Tf
+(Project Status: In Development) Tj
+0 -15 Td
+(Target Release: Q3 2027 - PlayStation 5) Tj
+0 -15 Td
+(PS4 Version: Q4 2027) Tj
+0 -20 Td
+/F2 12 Tf
+(Core Deliverables) Tj
+0 -15 Td
+/F1 11 Tf
+(- 30+ hours single-player story) Tj
+0 -12 Td
+(- 60+ km^2 open-world environment) Tj
+0 -12 Td
+(- 5 major story endings) Tj
+0 -12 Td
+(- 1,000+ dialogue trees) Tj
+0 -12 Td
+(- Hybrid real-time combat with tactical pause) Tj
+0 -12 Td
+(- Full survival mechanics suite) Tj
+0 -12 Td
+(- Cooperative multiplayer elements) Tj
+0 -30 Td
+/F2 14 Tf
+(Release Timeline) Tj
+0 -20 Td
+/F1 11 Tf
+(Q3 2026: Pre-Production (July - September)) Tj
+0 -15 Td
+(Q4 2026: Production Phase 1 (October - December)) Tj
+0 -15 Td
+(Q1 2027: Production Phase 2 (January - March)) Tj
+0 -15 Td
+(Q2 2027: Production Phase 3 (April - June)) Tj
+0 -15 Td
+(Q3 2027: Alpha/Beta & Launch (July - September)) Tj
+0 -30 Td
+/F2 14 Tf
+(Team Structure) Tj
+0 -20 Td
+/F1 11 Tf
+(Core Leadership: 5 positions) Tj
+0 -12 Td
+(Gameplay Programmers: 8-10) Tj
+0 -12 Td
+(Engine/Tools: 5-6) Tj
+0 -12 Td
+(Art & Animation: 12-15) Tj
+0 -12 Td
+(Audio & Sound: 3-4) Tj
+0 -12 Td
+(Design: 4-6) Tj
+0 -12 Td
+(QA & Testing: 8-12) Tj
+0 -12 Td
+(Production Management: 2-3) Tj
+0 -15 Td
+(Total: 45-55 team members at peak) Tj
+ET
+endstream
+endobj
+10 0 obj
+<< /Length 3800 >>
+stream
+BT
+/F2 24 Tf
+50 750 Td
+(Q3 2026: Pre-Production Phase) Tj
+0 -30 Td
+/F2 14 Tf
+(Sprint 1: Design & Pipeline Setup) Tj
+0 -20 Td
+/F1 11 Tf
+(Duration: July - August 2026) Tj
+0 -15 Td
+(Objectives: Finalize design, establish asset pipeline) Tj
+0 -20 Td
+(Key Deliverables:) Tj
+0 -15 Td
+(- Complete Game Design Document) Tj
+0 -12 Td
+(- Technical Design Document) Tj
+0 -12 Td
+(- Art style guide & asset specifications) Tj
+0 -12 Td
+(- Combat system specifications) Tj
+0 -12 Td
+(- Dialogue & narrative framework) Tj
+0 -12 Td
+(- Engine setup with Unreal Engine 5) Tj
+0 -12 Td
+(- CI/CD pipeline & source control) Tj
+0 -12 Td
+(- Basic character controller prototype) Tj
+0 -12 Td
+(- Combat interaction prototype) Tj
+0 -20 Td
+(Milestones:) Tj
+0 -15 Td
+(Week 2: Design document approval) Tj
+0 -12 Td
+(Week 4: Pipeline architecture complete) Tj
+0 -12 Td
+(Week 6: Development environment ready) Tj
+0 -12 Td
+(Week 8: First playable prototype) Tj
+0 -35 Td
+/F2 14 Tf
+(Sprint 2: Vertical Slice & Proof of Concept) Tj
+0 -20 Td
+/F1 11 Tf
+(Duration: August - September 2026) Tj
+0 -15 Td
+(Objectives: Build vertical slice, validate mechanics) Tj
+0 -20 Td
+(Key Deliverables:) Tj
+0 -15 Td
+(- 15-20 minute playable vertical slice) Tj
+0 -12 Td
+(- Combat system prototype (melee + ranged)) Tj
+0 -12 Td
+(- Resource management system (basic)) Tj
+0 -12 Td
+(- Environmental interaction system) Tj
+0 -12 Td
+(- Character animation rig) Tj
+0 -12 Td
+(- Audio placeholder system) Tj
+0 -12 Td
+(- UI framework) Tj
+0 -12 Td
+(- Performance profiling report) Tj
+0 -20 Td
+(Success Criteria:) Tj
+0 -15 Td
+(- Combat responsiveness < 50ms input lag) Tj
+0 -12 Td
+(- 60 FPS maintained in slice area) Tj
+0 -12 Td
+(- Core mechanics validated by stakeholders) Tj
+0 -12 Td
+(- Team confident in technical approach) Tj
+ET
+endstream
+endobj
+11 0 obj
+<< /Length 4200 >>
+stream
+BT
+/F2 24 Tf
+50 750 Td
+(Q4 2026: Production Phase 1) Tj
+0 -30 Td
+/F2 14 Tf
+(Sprint 3: Combat System Implementation) Tj
+0 -20 Td
+/F1 11 Tf
+(Duration: October 2026) Tj
+0 -15 Td
+(Key Deliverables:) Tj
+0 -15 Td
+(- Full melee combat system) Tj
+0 -12 Td
+(- Ranged combat system (guns, bows, throwables)) Tj
+0 -12 Td
+(- Improvised weapons system) Tj
+0 -12 Td
+(- Tactical pause mechanic) Tj
+0 -12 Td
+(- Basic enemy AI (patrol, chase, attack)) Tj
+0 -12 Td
+(- Boss fight framework) Tj
+0 -12 Td
+(- 100+ combat animations) Tj
+0 -12 Td
+(- Hit detection & damage calculation) Tj
+0 -12 Td
+(- Weapon progression system) Tj
+0 -20 Td
+(Success Criteria: 8+ weapon types, 5+ enemy types, polished feel) Tj
+0 -35 Td
+/F2 14 Tf
+(Sprint 4: Survival Mechanics & Inventory) Tj
+0 -20 Td
+/F1 11 Tf
+(Duration: November 2026) Tj
+0 -15 Td
+(Key Deliverables:) Tj
+0 -15 Td
+(- Health system (damage, healing, death)) Tj
+0 -12 Td
+(- Hunger/thirst/fatigue systems) Tj
+0 -12 Td
+(- Inventory management UI) Tj
+0 -12 Td
+(- Equipment system (armor, accessories)) Tj
+0 -12 Td
+(- Crafting system (150+ recipes)) Tj
+0 -12 Td
+(- Resource gathering mechanics) Tj
+0 -12 Td
+(- Environmental hazards system) Tj
+0 -12 Td
+(- Safe zone mechanics) Tj
+0 -12 Td
+(- Save system) Tj
+0 -20 Td
+(Success Criteria: 50+ craftable items, intuitive UI, resource economy balanced) Tj
+0 -35 Td
+/F2 14 Tf
+(Sprint 5: World Foundation & Level Design) Tj
+0 -20 Td
+/F1 11 Tf
+(Duration: November - December 2026) Tj
+0 -15 Td
+(Key Deliverables:) Tj
+0 -15 Td
+(- World map layout (60+ km^2)) Tj
+0 -12 Td
+(- 5 major regions defined) Tj
+0 -12 Td
+(- Underground bunker network) Tj
+0 -12 Td
+(- 100+ landmark placement) Tj
+0 -12 Td
+(- Environmental art style finalized) Tj
+0 -12 Td
+(- 5+ biome types) Tj
+0 -12 Td
+(- Day/night cycle system) Tj
+0 -12 Td
+(- Dynamic weather system) Tj
+0 -12 Td
+(- Traversal mechanics) Tj
+ET
+endstream
+endobj
+12 0 obj
+<< /Length 4100 >>
+stream
+BT
+/F2 24 Tf
+50 750 Td
+(Q1 2027: Production Phase 2) Tj
+0 -30 Td
+/F2 14 Tf
+(Sprint 7: Region 1 & 2 Development) Tj
+0 -20 Td
+/F1 11 Tf
+(Duration: January 2027) Tj
+0 -15 Td
+(Region 1 - Urban Ruins:) Tj
+0 -15 Td
+(- 30+ points of interest) Tj
+0 -12 Td
+(- 20+ side quests) Tj
+0 -12 Td
+(- 15+ story encounters) Tj
+0 -20 Td
+(Region 2 - Industrial Zone:) Tj
+0 -15 Td
+(- 25+ points of interest) Tj
+0 -12 Td
+(- 18+ side quests) Tj
+0 -12 Td
+(- 12+ story encounters) Tj
+0 -20 Td
+(Additional: Environmental storytelling, dynamic events) Tj
+0 -35 Td
+/F2 14 Tf
+(Sprint 8: Region 3 & Underground Systems) Tj
+0 -20 Td
+/F1 11 Tf
+(Duration: February 2027) Tj
+0 -15 Td
+(Region 3 - Forest Reclamation:) Tj
+0 -15 Td
+(- 35+ points of interest) Tj
+0 -12 Td
+(- 22+ side quests) Tj
+0 -12 Td
+(- 20+ environmental puzzles) Tj
+0 -20 Td
+(Underground Systems:) Tj
+0 -15 Td
+(- 10+ major bunkers interconnected) Tj
+0 -12 Td
+(- Locked doors & access systems) Tj
+0 -12 Td
+(- Environmental hazards) Tj
+0 -12 Td
+(- 50+ hidden areas & secrets) Tj
+0 -35 Td
+/F2 14 Tf
+(Sprint 9 & 10: Region 4, 5 & Story Integration) Tj
+0 -20 Td
+/F1 11 Tf
+(Duration: March 2027) Tj
+0 -15 Td
+(Region 4 - Administrative Center:) Tj
+0 -15 Td
+(- 30+ points of interest) Tj
+0 -12 Td
+(- 15+ story quests (high priority)) Tj
+0 -12 Td
+(- Faction headquarters) Tj
+0 -20 Td
+(Region 5 - Forbidden Zone:) Tj
+0 -15 Td
+(- 25+ points of interest) Tj
+0 -12 Td
+(- Story-critical encounters) Tj
+0 -12 Td
+(- Boss fight arena) Tj
+0 -20 Td
+(Narrative: 5 major story endings fully implemented) Tj
+ET
+endstream
+endobj
+13 0 obj
+<< /Length 3900 >>
+stream
+BT
+/F2 24 Tf
+50 750 Td
+(Q2 2027: Production Phase 3) Tj
+0 -30 Td
+/F2 14 Tf
+(Sprint 11: Audio & Music Implementation) Tj
+0 -20 Td
+/F1 11 Tf
+(Key Deliverables:) Tj
+0 -15 Td
+(- 2+ hours original soundtrack) Tj
+0 -12 Td
+(- Environmental audio (wind, water, creatures)) Tj
+0 -12 Td
+(- Combat audio (impacts, enemy sounds)) Tj
+0 -12 Td
+(- Voice acting implementation (1,000+ lines)) Tj
+0 -12 Td
+(- Audio mixing & master) Tj
+0 -12 Td
+(- Dynamic music system) Tj
+0 -12 Td
+(- 7.1 surround sound support) Tj
+0 -35 Td
+/F2 14 Tf
+(Sprint 12: Multiplayer Features) Tj
+0 -20 Td
+/F1 11 Tf
+(Key Deliverables:) Tj
+0 -15 Td
+(- Co-op gameplay modes (2-4 players)) Tj
+0 -12 Td
+(- Cooperative quests (15+)) Tj
+0 -12 Td
+(- Matchmaking system) Tj
+0 -12 Td
+(- Leaderboards) Tj
+0 -12 Td
+(- Social features (guilds/clans)) Tj
+0 -20 Td
+(Success Criteria: 30% multiplayer engagement target) Tj
+0 -35 Td
+/F2 14 Tf
+(Sprint 13: UI/UX Polish & Accessibility) Tj
+0 -20 Td
+/F1 11 Tf
+(Accessibility Options:) Tj
+0 -15 Td
+(- Colorblind modes (3 types)) Tj
+0 -12 Td
+(- Subtitle customization) Tj
+0 -12 Td
+(- Controller remapping) Tj
+0 -12 Td
+(- Difficulty modifiers) Tj
+0 -12 Td
+(- Localization (8+ languages)) Tj
+0 -20 Td
+(/F2 14 Tf
+(Sprint 14: Optimization & Performance) Tj
+0 -20 Td
+/F1 11 Tf
+(Targets:) Tj
+0 -15 Td
+(- 60 FPS stable target) Tj
+0 -12 Td
+(- Load time < 30 seconds) Tj
+0 -12 Td
+(- DualSense haptic feedback) Tj
+0 -12 Td
+(- Adaptive trigger implementation) Tj
+0 -12 Td
+(- SSD streaming optimization) Tj
+ET
+endstream
+endobj
+xref
+0 14
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000135 00000 n 
+0000000237 00000 n 
+0000000341 00000 n 
+0000000446 00000 n 
+0000000552 00000 n 
+0000000658 00000 n 
+0000000776 00000 n 
+0000004036 00000 n 
+0000007886 00000 n 
+0000012136 00000 n 
+0000016386 00000 n 
+trailer
+<< /Size 14 /Root 1 0 R >>
+startxref
+20346
+%%EOF
